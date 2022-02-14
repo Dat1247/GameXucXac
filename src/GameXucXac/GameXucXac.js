@@ -13,9 +13,9 @@ function GameBauCua(props) {
 		<div
 			className='game'
 			style={{ backgroundImage: "url('./game_xuc_xac_img/bgGame.png')" }}>
-			<h1 className='mt-5 text-center display-4'>GAME ĐỖ XÚC XẮC</h1>
+			<h1 className='my-5 text-center display-4'>GAME ĐỖ XÚC XẮC</h1>
 			<div className='game_play row text-center mt-3'>
-				<div className=' col-5'>
+				<div className='col-4 col-lg-5'>
 					<button
 						className={"game_play_choose " + classTai}
 						onClick={() => {
@@ -24,10 +24,10 @@ function GameBauCua(props) {
 						TÀI
 					</button>
 				</div>
-				<div className='game_play-xucxac col-2'>
+				<div className='game_play-xucxac col-4 col-lg-2'>
 					<XucXac />
 				</div>
-				<div className=' col-5'>
+				<div className='col-4 col-lg-5'>
 					<button
 						className={"game_play_choose " + classXiu}
 						onClick={() => {
@@ -37,7 +37,7 @@ function GameBauCua(props) {
 					</button>
 				</div>
 			</div>
-			<div className='game-result text-center'>
+			<div className='game-result text-center mt-4'>
 				<ThongTinTroChoi />
 
 				<button

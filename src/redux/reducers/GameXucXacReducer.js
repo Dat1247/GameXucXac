@@ -5,9 +5,9 @@ const initialState = {
 	totalGame: 0,
 	taiXiu: true,
 	xucXacArray: [
-		{ ma: 1, hinhAnh: "./game_xuc_xac_img/1.png" },
-		{ ma: 1, hinhAnh: "./game_xuc_xac_img/1.png" },
-		{ ma: 1, hinhAnh: "./game_xuc_xac_img/1.png" },
+		{ ma: 6, hinhAnh: "./game_xuc_xac_img/6.png" },
+		{ ma: 6, hinhAnh: "./game_xuc_xac_img/6.png" },
+		{ ma: 6, hinhAnh: "./game_xuc_xac_img/6.png" },
 	],
 };
 
